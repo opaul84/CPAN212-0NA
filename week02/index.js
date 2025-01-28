@@ -1,5 +1,6 @@
 //const http=require("http")
 import http from "http"
+import from fs
 const app = http.createServer((req, res) => {
     if (req.url === '/') {
         res.end('Welcome to the server')}
