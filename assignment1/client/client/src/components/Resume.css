@@ -1,0 +1,99 @@
+body {
+    background-color: #f4f4f8;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+  }
+  
+  .resume-container {
+    padding: 2rem 0;
+  }
+  
+  h1, h2 {
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  p.overview {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 12px;
+  }
+  
+  .card h2 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #ecf0f1;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  li:hover {
+    background: #3498db;
+    color: white;
+  }
+  
+  .header-card {
+    background-color: #3498db;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-box {
+    border: 5px solid #2980b9;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .skill-item {
+    background-color: #ecf0f1;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .skill-item:hover {
+    transform: scale(1.1);
+    background-color: #3498db;
+    color: white;
+  }
+.projects-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .projects-list li {
+    margin-bottom: 10px;
+  }
+    
