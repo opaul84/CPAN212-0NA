@@ -1,4 +1,4 @@
-//recipe.js
+
 const mongoose = require('mongoose');
 
 const RecipeSchema = new mongoose.Schema({
